@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Amnesia13",
+    "database": "neoworker",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "timezone": "Europe/Warsaw",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "root",
+    "password": "password",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "root",
+    "password": "password",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}

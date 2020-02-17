@@ -1,0 +1,38 @@
+.main-div {
+    width: 80%;
+    height: 100vh;
+    float: right;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-pic {
+    width: 600px;
+    height: auto;
+    align-self: center;
+    padding-top: 50px;
+}
+
+.heart {    
+    width: 25px;
+    height: auto;
+}
+
+p.made{
+    position: absolute;
+    bottom: 5px;
+    right: 20px;}
+
+.admin-homepage-title {
+    font-weight: bold;
+    font-size: 56px;
+    color: #000099;
+    text-align: center;
+}
+
+.admin-homepage-orange {
+    color: #ED6A09;
+}
+
+

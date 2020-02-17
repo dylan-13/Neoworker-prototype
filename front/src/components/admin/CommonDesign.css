@@ -1,0 +1,383 @@
+/* ----------   CSS des formulaires (Create, Get, Update) -------- */
+
+*.selector {
+    color: #000099;
+}
+
+h1.admin-h1 {
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    font-style: italic;
+}
+
+.form-flex {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.form-group-flex {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center! important;
+  
+}
+
+.label-flex {
+  display: flex !important;
+  align-items: center !important;
+
+}
+
+div.body {
+    width: 80%;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.champs-mission {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /*
+    align-items: stretch;
+    align-content: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    */
+}
+
+.champs-mission-leftside,
+.champs-mission-rightside {
+  display:flex;
+  flex-direction: column;
+  width: 47%;
+}
+
+Label.label {
+    color: #ED6A09;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+Button.btn,
+Button.btn:hover {
+    background: #ED6A09;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-self: center;
+}
+
+.admin-input-firstname,
+.admin-input-lastname,
+.admin-input-email, 
+.admin-input-tel,
+.admin-input-password,
+.admin-input-address,
+.admin-input-cp,
+.admin-input-metier,
+.admin-input-tj_min,
+.admin-input-tj_max,
+.admin-input-dispo,
+.admin-input-pref_lieu_travail,
+.admin-input-mobilite,
+.admin-input-km_max,
+.admin-input-nom_mission,
+.admin-input-nom_entreprise,
+.admin-input-budget,
+.admin-input-date_debut,
+.admin-input-date_fin,
+.admin-input-nb_j_par_mois,
+.admin-input-siret,
+.admin-input-profil,
+.admin-input-frequence,
+.admin-input-note
+{
+    width: 100% !important;
+    margin-top : 10px !important;
+    margin-bottom:10px !important;
+    border-radius: 10px !important;
+    box-shadow: 0px 4px 4px rgba(85, 71, 71, 0.25) !important;
+    font-size: 15px !important;
+    color: black! important;
+    font-weight: bold !important;
+    text-align: center !important;
+}
+
+.admin-input-note {
+  height: 60vh !important;
+  width: 100% !important;
+  text-align: unset !important;
+}
+
+h2.mission-title {
+    color: #ED6A09;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #c4c4c4;
+    box-shadow: 0px 4px 4px rgba(85, 71, 71, 0.25) !important;
+    border-radius: .25rem;
+    margin-top: 50px;
+}
+
+div.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid #c4c4c4;
+    border-radius: .25rem;
+    box-shadow: 0px 4px 4px rgba(85, 71, 71, 0.25) !important;
+    margin-bottom: 20px;
+}
+
+div.mission-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    width: 30%;
+}
+
+.champ-libre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 65%;
+}
+
+.family-prestation-title {
+    color: #ED6A09;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #c4c4c4;
+    border-radius: .25rem;
+    box-shadow: 0px 4px 4px rgba(85, 71, 71, 0.25) !important;
+    font-size: 20px;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.prestation-checkbox-div {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.checkbox-and-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox {
+  margin-right : 20px;
+  transform: scale(2);
+}
+
+.checkbox1,
+.checkbox2,
+.checkbox3,
+.checkbox4,
+.checkbox5,
+.checkbox6,
+.checkbox7,
+.checkbox8 {
+  margin: 0px 20px;
+  transform: scale(2);
+}
+
+.famille-prestation-select {
+    margin-bottom: 50px;
+}
+
+.label-prestation {
+    margin: 0;
+}
+
+.note-button,
+.note-button:hover {
+  position: fixed !important;
+  right: 0px !important;
+  bottom: 0px !important;
+  margin: 10px !important;
+  background: #ED6A09 !important;
+  width: 6vw !important;
+  height : 5vw !important;
+  border: 1px solid black !important;
+}
+
+.cancel-modal-button {
+  margin: 10px !important;
+} 
+
+.form-group-flex-password-create {
+  display:flex !important;
+  flex-direction: column !important;
+  margin-top: 20px !important;
+}
+
+.admin-create-input-password {
+  width: 35% !important;
+    margin-top : 10px !important;
+    margin-bottom: 20px !important;
+    border-radius: 10px !important;
+    box-shadow: 0px 4px 4px rgba(85, 71, 71, 0.25) !important;
+    font-size: 15px !important;
+    color: black! important;
+    font-weight: bold !important;
+}
+
+.italic-span {
+  font-style: italic;
+}
+
+/* ------------------- Liste Neoworker et Missions --------------------- */
+
+.liste-h2 {
+    text-align: left;
+    font-size: 56px;
+    font-weight: bold;
+    margin: 0px 3%;
+  }
+
+  .liste-card-div {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    margin: 0px 3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ */
+
+  .neoworkerCard {
+    padding: 10px;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    border: #c4c4c4 2px solid;
+    border-radius: .25rem;
+    height: auto;
+  }
+
+  div.firstrow-card-neoworker {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .neoworkerCard-p {
+    font-weight: bold;
+    margin: 0px !important;
+  }
+
+  Button.button-card, Button.button-card:hover {
+    color: white;
+    font-size: 16px!important;
+    background: #ED6A09;
+    border-radius: .25rem;
+    width: auto!important;
+    margin: 0px!important;
+    display: flex;
+    align-content: center;
+  }
+  
+  div.secondrow-card-neoworker, div.thirdrow-card-neoworker, div.fourthrow-card-neoworker, div.fifthrow-card-neoworker {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ */
+  
+  
+  div.missions-cards {
+    padding: 10px;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    border: #c4c4c4 2px solid;
+    border-radius: .25rem;
+  }
+  
+  
+  div.firstrow-card {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  p.titleofmission {
+    font-weight: bold;  
+    display: flex;
+    align-self: start;
+    font-weight: bold; 
+}
+
+  p.dateofmission {
+    color: #000099;
+    font-size: 16px;
+  }
+  
+  
+  div.secondrow-card, div.thirdrow-card, div.fourthrow-card, div.fifthrow-card {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    flex-direction: row;
+    margin-bottom: 5px;
+  }
+  
+  
+  
+/* -------------------- Nom de profil et image de profil admin -------------------- */
+
+.profil-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px;
+}
+
+.name-card {
+  margin: 0px;
+  padding-right: 15px;
+}
+
+.pic-card {
+  height: 50px;
+  border-radius: 50%;
+}
+
+
+/* -----------------  Div commune à toute les pages cotés admin ------------ */
+
+div.admin-div{
+  color: #000099;
+  width: 80%;
+  height: 100%;
+  float: right;
+  font-weight: 600;
+}

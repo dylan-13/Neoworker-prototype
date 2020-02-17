@@ -1,0 +1,75 @@
+.matching-first-div {
+        display: flex;
+        flex-direction: column;
+        color: #000099;
+        width: 80%;
+        height: 100%;
+        float: right;
+        font-weight: 600;
+    
+}
+
+.matching-second-div {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.left-neoworker-div {
+    display:flex;
+    flex-direction: column;
+    width: 45%;
+   
+}
+
+.right-mission-div {
+    width: 45%;
+    display:flex;
+    flex-direction: column;
+}
+
+.neoworkerCard-matching {
+    padding: 10px;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    border: #c4c4c4 2px solid;
+    border-radius: .25rem;
+    height: auto;
+    margin-top: 20px;
+}
+
+.missions-cards-matching {
+    padding: 10px;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: #c4c4c4 2px solid;
+    border-radius: .25rem;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.column-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.orange-status {
+    color: #ED6A09;
+}
+
+.modal-body-div {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-around;
+}

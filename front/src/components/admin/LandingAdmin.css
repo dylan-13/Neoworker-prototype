@@ -1,0 +1,35 @@
+.landingText{
+    text-align: center;
+
+}
+.logoLanding{
+    padding-left: 50px;
+}
+.connectingForm{
+    max-width: 600px;
+    margin: auto;
+}
+.inputPassword, .inputEmail{
+    margin-left: 30px;
+}
+.btnConnection {
+    background-color: #ED6A09!important;
+    color: white;
+    border-radius: 100px;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+.landingH1{
+    color: #000099;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 50px 0px;
+}
+.textModif{
+    color: #ED6A09;
+}
+.landingH2{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 50px 0px;
+}

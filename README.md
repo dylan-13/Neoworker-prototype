@@ -1,11 +1,9 @@
 
 # Neoworker
 
-# Deployement : 
-
 > A Node/React Js website
 
-`Neoworker Back-Office` is a dynamic website that connects freelance profiles to employers thanks to its powerful algorithm. The administrators can manage their jobs and neoworkers, and neoworkers can manage their skills and get offers.
+`Neoworker` is a dynamic website that connects freelance profiles to employers thanks to its powerful algorithm. The administrators can manage their jobs and neoworkers, and neoworkers can manage their skills and get offers.
 
 It was created by 5 students of the Wild Code School of Marseille during 8 weeks : Stevie CUTMAN, Anthony PORTIER, Alexandre GUIDAT, Kevin THOMANN and Dylan BERTHIER.
 
